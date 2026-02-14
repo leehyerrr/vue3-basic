@@ -3,20 +3,8 @@
 </template>
 
 <script>
-import { reactive, readonly } from 'vue'
-
 export default {
   setup() {
-    const original = reactive({
-      count: 0,
-    })
-    const copy = readonly(original)
-    original.count++
-    // original.count++
-    copy.count++
-    console.log('original.count:', original.count)
-    console.log('copy.count', copy.count)
-
     return {}
   },
 }
