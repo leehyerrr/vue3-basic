@@ -21,7 +21,7 @@ export default {
 
     const styleObject = reactive({
       color: 'red',
-      fontSize: '13px',
+      fontSize: '17px', //원격 수정
     })
 
     return { message, addMessage, reactiveMessage, addMessage2, styleObject }
