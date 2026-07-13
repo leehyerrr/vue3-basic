@@ -21,7 +21,7 @@ export default {
 
     const styleObject = reactive({
       color: 'red',
-      fontSize: '13px',
+      fontSize: '14px',
     })
 
     return { message, addMessage, reactiveMessage, addMessage2, styleObject }
