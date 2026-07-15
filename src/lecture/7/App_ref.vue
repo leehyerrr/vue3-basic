@@ -21,8 +21,7 @@ export default {
 
     const styleObject = reactive({
       color: 'red',
-      fontSize: '10px', //test에서 수정함-stash4444
-      //fontSize: '12px',
+      fontSize: '10px', //test 수정2
     })
 
     return { message, addMessage, reactiveMessage, addMessage2, styleObject }
