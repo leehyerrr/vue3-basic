@@ -6,7 +6,7 @@
 </template>
 
 <script>
-import { reactive, ref } from 'vue' //test수정5
+import { reactive, ref } from 'vue' //test수정6
 
 export default {
   setup() {
