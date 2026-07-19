@@ -13,7 +13,7 @@ export default {
     const state = reactive({ count: 0, deep: { count: 0 } })
     const increament = () => {
       state.count++
-      console.log('yy')
+      console.log('cc')
       state.deep.count++
     }
     return { state, increament }
