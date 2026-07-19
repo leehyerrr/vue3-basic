@@ -17,6 +17,7 @@ export default {
     }
     const addMessage2 = () => {
       reactiveMessage.xx = reactiveMessage.xx + '!'
+      console.log('xx')
     }
 
     const styleObject = reactive({
