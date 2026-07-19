@@ -20,7 +20,7 @@ export default {
     }
 
     const styleObject = reactive({
-      color: 'lime',
+      color: 'navy',
 
       fontSize: '15px', //원격 수정2
     })
