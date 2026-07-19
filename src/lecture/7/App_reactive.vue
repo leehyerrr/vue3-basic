@@ -14,6 +14,7 @@ export default {
     const increament = () => {
       state.count++
       state.deep.count++
+      console.log('xxx')
     }
     return { state, increament }
   },

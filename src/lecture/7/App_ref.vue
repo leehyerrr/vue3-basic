@@ -17,6 +17,7 @@ export default {
     }
     const addMessage2 = () => {
       reactiveMessage.xx = reactiveMessage.xx + '!'
+      console.log('test에서 수정!!')
     }
 
     const styleObject = reactive({
