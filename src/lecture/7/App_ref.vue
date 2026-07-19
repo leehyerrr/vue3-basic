@@ -21,7 +21,6 @@ export default {
 
     const styleObject = reactive({
       color: 'red',
-
       fontSize: '10px', //test 수정5
     })
 
